@@ -11,7 +11,7 @@ $config.api_base_url = "https://api.groupdocs.cloud"
 class RunExamples
 
   # Uploading sample test files from local disk to cloud storage
-  #Common.UploadSampleFiles()
+  Common.UploadSampleFiles()
 
   require "./InfoOperations/GetSupportedFormats.rb"
   GetSupportedFormats.Run()
