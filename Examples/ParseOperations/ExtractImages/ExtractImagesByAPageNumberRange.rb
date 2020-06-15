@@ -18,6 +18,7 @@ class ExtractImagesByAPageNumberRange
       puts("Images from " + page.page_index.to_s + " page.")
       page.images.each do |image|
         puts("Image path in storage: " + image.path + ". Download url: " + image.download_url)
+        puts("Image format: " + image.file_format + ". Page index: " + image.page_index.to_s)
       end
     end
   end
